@@ -1,0 +1,73 @@
+html{
+    
+    background-color: rgba(21, 22, 15, 0.911); 
+}
+body{  
+    background-color: rgba(187, 206, 78, 0.911); 
+    margin-top: 80px;
+}
+form{
+   
+    float: left;
+    width: 50%;
+    margin: auto;
+    background: rgba(230, 189, 189, 0.4);
+    padding: 15px 15px;
+    box-sizing: border-box;
+}
+h2{
+    /*Color del texto*/
+    color: #ffffff;
+    /*Texto centralizado*/
+    text-align: center;
+}
+input, textarea{
+    /*Anchura de la caja de texto*/
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton{
+    float: left;
+    background: rgb(55, 53, 192);
+    color: rgb(184, 182, 175);
+    max-width: 30%;
+    /*Asigna el espacio entre el contenido y el borde*/
+    padding: 10px;
+}
+#boton:hover{
+    /*Mostrar el tipo de cursor cuando este sobre el elemento*/
+    cursor: pointer;
+}
+.menu{
+    /*quita viñetas*/
+    list-style-type: none;
+    /*El área de padding es el espacio entre el contenido del elemento y su borde ( border )*/
+    padding: 0;
+    width: 61%;
+    height: 71%;
+    border-color: rgb(236, 238, 248);
+    border-style:dashed;
+    border-radius: 7px; 
+}
+.menu{
+    /*color de fondo del menu*/
+    background: rgb(99, 51, 83);
+    border:2px;
+    /*establece el espacio entre el texto superior e inferior*/
+    padding: 0.3em;}
+    .menu a {
+        color: rgb(161, 170, 209);
+            /* quita el subrayado de las palabras*/
+            text-decoration: none 
+          }
+

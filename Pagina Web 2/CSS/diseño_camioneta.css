@@ -1,0 +1,251 @@
+html {    background-color: hsl(26, 78%, 2%); 
+} 
+  
+body {
+    font-family: Georgia, "Impact",
+    Times, serif;
+    color: rgb(203, 209, 231);
+    background-color: rgba(187, 206, 78, 0.911);
+    text-decoration: none
+    }
+    body > article#cuerpo {
+      /*establece el espacio en la pantalla*/
+      width: 51%;
+      /*ubica a la imagen a un lado del texto*/
+      float: left;
+      /*establece los margenes del texto*/
+      margin: 0 3% 0 3%;
+    }
+ul.menu{
+     
+      /*quita viñetas*/
+      list-style-type: none;
+      /*El área de padding es el espacio entre el contenido del elemento y su borde ( border )*/
+      padding: 0;
+      width: 51%;
+      border-color: rgb(95, 109, 165);
+      border-style:solid;
+  }
+ul.menu li {
+      /*color de fondo del menu*/
+      background: rgb(99, 51, 83);
+      border:2px;
+      /*establece el espacio entre el texto superior e inferior*/
+      padding: 0.3em;}
+ul.menu a {
+  color: rgb(15, 16, 20);
+      /* quita el subrayado de las palabras*/
+      text-decoration: none 
+    }
+    
+.marca{
+  color:rgb(225, 230, 224); 
+    font-size:15px;
+    border:2px;
+    border-color: rgb(95, 109, 165);
+    border-style:solid;
+    width:600px; 
+    height:150px; 
+}
+body > #cuerpo img {
+    float: right;
+    width: 40%;
+    margin: 0px 0 10px 10px;
+  }
+  body > footer address {
+    background-color: rgb(146, 168, 118);
+    color: rgba(255, 255, 255, 0.7);
+    /*establece tipode letra y tamaño de etiqueta*/
+    font: normal small-caps bold 0.9em/3em
+    Quicksand, Verdana, Geneva, sans-serif;
+    /*centra el texto*/
+    text-align: center;
+}
+/*diseño de la pagina de auto......................................................*/
+.html_auto {
+  background-color: hsl(172, 74%, 59%)
+}
+
+
+.body_auto {
+  font-family: Georgia, "Times New Roman",
+  Times, serif;
+  color: rgb(129, 128, 48);
+  background-color: rgba(251, 250, 252, 0.911);
+  text-decoration: none
+  }
+  body > article#cuerpo_auto {
+    color: rgba(27, 17, 17, 0.7);
+    /*establece el espacio en la pantalla*/
+    width: 51%;
+    /*ubica a la imagen a un lado del texto*/
+    float: left;
+    /*establece los margenes del texto*/
+    margin: 0 3% 0 3%;
+  }
+  article#cuerpo_auto h1 {color: rgb(14, 12, 12);
+    font-style:italic;
+    font-weight:bold;
+    font-size:2em;
+    
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;}
+  article#cuerpo_auto h2 {color: rgb(17, 15, 15);
+    font-style:italic;
+    font-weight:bold;
+    font-size:2em;
+    font-family:'Helvetica','','Monaco',sans-serif;}
+    article#cuerpo_auto h3 {color: rgb(184, 13, 13);
+      
+      
+      
+      font-family:'Helvetica','Impact','Monaco',sans-serif;}
+  ul.menu_aut{
+     
+    /*quita viñetas*/
+    list-style-type: none;
+    /*El área de padding es el espacio entre el contenido del elemento y su borde ( border )*/
+    padding: 0;
+    width: 51%;
+    
+}
+ul.menu_aut li {
+  /*color de fondo del menu*/
+  background: rgb(193, 207, 65);
+  border-color: rgb(18, 19, 24);
+    border-style:solid;
+  /*establece el espacio entre el texto superior e inferior*/
+  padding: 0.3em;}
+  ul.menu_aut a {
+    color: rgb(15, 16, 20);
+        /* quita el subrayado de las palabras*/
+        text-decoration: none 
+      }
+.foot_auto address {
+  background-color: rgb(235, 223, 114);
+  color: rgba(255, 255, 255, 0.7);
+  /*establece tipode letra y tamaño de etiqueta*/
+  font: normal small-caps bold 0.9em/3em
+  Quicksand, Verdana, Geneva, sans-serif;
+  /*centra el texto*/
+  text-align: center;
+}
+/*motos................................................................................*/
+.html_moto {
+  background-color: hsl(88, 63%, 7%)
+}
+.body_moto {
+  font-family: Georgia, "Impact",
+  Times, serif;
+  color: rgb(129, 128, 48);
+  background-color: rgba(52, 57, 75, 0.911);
+  text-decoration: none;
+  
+  }
+  body > article#cuerpo_moto {
+    color: rgba(206, 198, 198, 0.7);
+    /*establece el espacio en la pantalla*/
+    width: 51%;
+    /*ubica a la imagen a un lado del texto*/
+    float: left;
+    /*establece los margenes del texto*/
+    margin: 0 3% 0 3%;
+    border-color: rgb(235, 236, 241);
+    border-style:dashed;
+    width:650px; 
+    height:1700px;
+  }
+  ul.menu_moto{
+    
+    /*quita viñetas*/
+    list-style-type: none;
+    /*El área de padding es el espacio entre el contenido del elemento y su borde ( border )*/
+    padding: 0;
+    width: 51%;
+    border-color: rgb(236, 238, 248);
+    border-style:dashed;
+    
+}
+ul.menu_moto li {
+  /*color de fondo del menu*/
+  
+  
+  /*establece el espacio entre el texto superior e inferior*/
+  padding: 0.3em;}
+  ul.menu_moto a {
+    color: rgb(236, 233, 16);
+        /* quita el subrayado de las palabras*/
+        text-decoration: none 
+      }
+.foot_moto address {
+  background-color: rgb(26, 25, 22);
+  color: rgba(255, 255, 255, 0.7);
+  /*establece tipode letra y tamaño de etiqueta*/
+  font: normal small-caps bold 0.9em/3em
+  Quicksand, Verdana, Geneva, sans-serif;
+  /*centra el texto*/
+  text-align: center;
+}
+/*...........................................bicicletas.................................................*/
+
+.html_bici {
+  background-color: hsl(88, 13%, 28%)
+}
+.body_bici {
+  
+  font-family: Georgia, "Times New Roman",
+  Times, serif;
+  color: rgb(129, 128, 48);
+  background-color: rgba(138, 100, 31, 0.911);
+  text-decoration: none;
+  }
+  .body_bici::-webkit-scrollbar{
+    width:24px;
+    background: rgb(212, 198, 208);
+   }
+   .body_bici::-webkit-scrollbar-thumb{
+    background: rgb(26, 190, 196);
+   }
+  body > article#cuerpo_bici {
+    
+    color: rgba(206, 198, 198, 0.7);
+    /*establece el espacio en la pantalla*/
+    width: 51%;
+    /*ubica a la imagen a un lado del texto*/
+    float: left;
+    /*establece los margenes del texto*/
+    margin-top: 80px;
+  }
+  #cuerpo_bici h2 {color: rgb(27, 53, 83); background-color: rgb(122, 118, 58);}
+  #cuerpo_bici h1{color: rgb(14, 12, 12);background-color: rgb(121, 116, 54)}
+  
+
+ul.menu_bici{
+  width: 700px;
+  height: 30px;
+  border-color: rgb(236, 238, 248);
+  border-style:double;
+  float: left; 
+  margin-top: 20px;
+  background-color: rgb(196, 156, 37);
+}
+ul.menu_bici li{
+ list-style: none;
+ float: left;
+}
+ul.menu_bici li a{
+text-decoration: none;
+padding: 20px 26px;
+border: 0px double;
+color: rgb(221, 236, 16);
+
+}
+
+.foot_bici address {
+  background-color: rgb(26, 25, 22);
+  color: rgba(255, 255, 255, 0.7);
+  /*establece tipode letra y tamaño de etiqueta*/
+  font: normal small-caps bold 0.9em/3em
+  Quicksand, Verdana, Geneva, sans-serif;
+  /*centra el texto*/
+  text-align: center;
+}

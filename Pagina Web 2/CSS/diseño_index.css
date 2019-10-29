@@ -1,0 +1,102 @@
+/*colo de fonfo*/
+html {    background-color: hsl(143, 67%, 2%); } 
+  
+
+body {
+    /*tipo de letra*/
+    font-family: Georgia, "Helvetica",
+          Times, serif;
+          /*color de la hoja*/
+          background-color: rgba(200, 240, 166, 0.911);}
+
+
+ul.lista{
+    /*quita viñetas*/
+    list-style-type: none;
+    /*El área de padding es el espacio entre el contenido del elemento y su borde ( border )*/
+    padding: 0;
+    
+}
+ul.lista li {
+    /*color de fondo del menu*/
+    background: white;
+    /*establece el margen de cada palabra*/
+    margin: 0.5em 0;
+    /*establece el espacio entre el texto superior e inferior*/
+    padding: 0.3em;
+    /*da color a la esquina del border*/
+    border-right: 1em solid black }
+ul.lista a {
+    /* quita el subrayado de las palabras*/
+    text-decoration: none }
+body > article#automovil {
+    /*establece el espacio en la pantalla*/
+    width: 51%;
+    /*ubica a la imagen a un lado del texto*/
+    float: left;
+    /*establece los margenes del texto*/
+    margin: 0 3% 0 3%;
+  }
+#menu{ color: rgb(14, 12, 12);
+    background: rgb(111, 112, 16);
+}
+#noticias{
+    color: rgb(14, 12, 12);
+    background: rgb(111, 112, 16);
+}
+#automovil h1 {color: rgb(14, 12, 12);
+    background: rgb(111, 112, 16);
+}
+/*color de los subtitulos que estan dentro de h2*/
+#automovil h2 {color: rgb(27, 53, 83);}
+#automovil h3 {color: rgb(14, 12, 12);
+    /*establece el tamaño de la letra*/
+  font-size: 0.6em;
+  /*Establece la anchura de la zona de relleno izquierdo de los elementos*/
+   padding-left: 10px;
+}
+#automovil{color: rgb(14, 12, 12);}
+/*agrega una imagen dentro del curpo del texto*/
+body > #automovil img {
+    /*coloca la imagen al lado derecho*/
+    float: right;
+    /*espacio en la pantalla*/
+    width: 40%;
+    margin: 0px 0 10px 10px;
+}
+/*establece espacios a la derecha y a la izquiera del texto*/
+ aside blockquote {
+    font-size: 0.8em;
+    color: rgb(26, 17, 10);
+    margin: 20px 5px;
+    quotes: "\201C" "\201D";
+   }  
+aside blockquote::before {
+    /*muestran caracteres(comillas)
+    content: open-quote;
+    /*especifica el tipode fuente*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+    /*establece el grosor de cada letra*/
+    font-weight: normal;
+   }
+   aside blockquote::after {
+    content: close-quote;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6em;
+    font-weight: bold;
+   }
+
+body > footer address {
+    background-color: rgb(75, 86, 184);
+    color: rgba(255, 255, 255, 0.7);
+    /*establece tipode letra y tamaño de etiqueta*/
+    font: normal small-caps bold 0.9em/3em
+    Quicksand, Verdana, Geneva, sans-serif;
+    /*centra el texto*/
+    text-align: center;
+}
+
+
+
+
